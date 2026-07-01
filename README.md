@@ -1,0 +1,3 @@
+1. **Branching Strategy:** Dedicated branches (`feature/header` and `feature/footer`) were created using `git branch`/`git checkout` to isolate changes and prevent team members from overwriting each other's work.
+2. **Conflict Resolution:** A merge conflict in `index.html` was manually resolved by locating the Git conflict markers and combining the structural code changes from both branches.
+3. **Pull Requests (PRs):** The PR workflow served as a quality check, allowing team members to review line-by-line changes, prevent broken layouts, and align on coding standards before code merged to the `main` branch.
